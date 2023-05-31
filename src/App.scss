@@ -1,0 +1,38 @@
+@import './Variables.scss';
+
+.main {
+  .page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $light-purple;
+    min-height: calc(100vh - ($header-footer-height * 2));
+    .inputs {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      .label {
+        padding: 1rem;
+      }
+
+      @media screen and (max-width: 40rem) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+    }
+    @media screen and (max-width: 40rem) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .calculate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
