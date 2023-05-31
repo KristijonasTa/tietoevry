@@ -77,7 +77,12 @@ function App() {
           <label htmlFor="tillWhen" className="label">
             Deadline
             <br />
-            <input type="date" value={deadLine} onChange={handleDeadLine} />
+            <input
+              type="date"
+              value={deadLine}
+              onChange={handleDeadLine}
+              min={new Date().toISOString().split('T')[0]}
+            />
           </label>
         </div>
         <Button className="calculate" title="Calculate" onClick={calculateHoursPerDay} />
