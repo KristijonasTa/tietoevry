@@ -6,7 +6,7 @@ This project was build to calculate or user can finish his project on time.
 
 There is three inputs:
 1 Total project time - Time that approximately needed to finish project.
-2 Busy hours - hours per day that you gonna be busy ( 8 sleeping hours not included )
+2 Busy hours - hours per day that you gonna be busy (User do not need to minus 8 hours of sleep)
 3 Deadline date - Date can be todays date, but disabled to pick past dates.
 
 If there is enough time - outcome will show how many hours per day user should spend to complete his project.
