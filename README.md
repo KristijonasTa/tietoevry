@@ -1,6 +1,9 @@
 # Tietoevry home assignment
 
 This project was build to calculate or user can finish his project on time.
+
+## Usage
+
 There is three inputs:
 1 Total project time - Time that approximately needed to finish project.
 2 Busy hours - hours per day that you gonna be busy ( 8 sleeping hours not included )
