@@ -18,4 +18,6 @@ If there is not enough time - outcome will show how may hours is missing to fini
 
 You can not insert minus numbers into "Total project time" and "Busy hour" inputs.
 
+Main code - App.jsx
+
 Thank you for your time.
